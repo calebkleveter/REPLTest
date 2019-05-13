@@ -1,3 +1,7 @@
-struct REPLTest {
-    var text = "Hello, World!"
+public struct Public {
+    public var foo = "bar"
+}
+
+internal struct Internal {
+    internal var fizz = "buzz"
 }
